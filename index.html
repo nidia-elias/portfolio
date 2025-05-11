@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title> Porfolio </title>
+        <!-- CSS externo -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Encabezado-->
+     <header class="header">
+        <div class="logo">
+            <div class="imagen"><img src="img/estrella.png" alt=""></div>
+            <div class="nombre"><h1>Nidia Catalina Elías</h1></div>
+        </div>
+        <div class="botonera">
+            <nav>
+                <ul class="texto-normal">
+                    <li><a href="#presentacion">Sobre mi</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+        </nav>
+        </div>
+     </header>
+
+    <main>
+            <!-- Presentación-->
+        <section class="presentacion" id="presentacion">
+            
+            <div>
+                <p class="sub-titulo">Hola, mi nombre es Nidia y soy desarrolladora.</p>
+                <p class="texto-normal">Actualmente curso el 2° año de la Tecnicatura en Desarrollo de Software y doy clases matemática en escuelas secundarias. <br>
+                En el año 2021 empecé a estudiar programación a través de diferentes cursos a distancia de la UTN, Alura-Oracle, y desde entonces sigo incursionando en el mundo IT.</p>
+            </div>
+            <div class="div-vacio"></div>
+            <div id="mifoto">
+                <img src="img/mifoto.jpg" alt="">
+            </div>
+
+            <!-- AGREGAR LISTA CON LINK DE GIT HUB, LINKEDN, ETC -->
+            
+        </section>
+        <!-- Habilidades-->
+        <section id="habilidades">
+            <div class="div-tit-seccion">
+                <h3 class="sub-titulo2">Habilidades</h3>
+            </div>
+            <div class="div-img-seccion texto-normal">
+                <div><img src="img/html.png" alt=""><p>HTML</p></div>
+                <div><img src="img/css.png" alt=""><p>CSS</p></div>
+                <div><img src="img/csharp.png" alt=""><p>C#</p></div>
+                <div><img src="img/mysql.png" alt=""><p>MySql</p></div>
+                <div><img src="img/javascript.png" alt=""><p>JavaScript</p></div>
+                <div><img src="img/php.png" alt=""><p>PHP</p></div>
+            </div>
+
+        </section>
+
+        <!-- Hobbies-->
+        <section id="hobbies"> 
+            <div class="div-tit-seccion">
+                <h3 class="sub-titulo2">Hobbies</h3>
+            </div>
+            <div class="div-img-seccion texto-normal">
+                <div><img src="img/viajar.jpg" alt=""><p>Viajar</p></div>
+                <div><img src="img/guitarra.png" alt=""><p>Tocar la guitarra</p></div>
+                <div><img src="img/bici.png" alt=""><p>Andar en bicicleta</p></div>
+            </div>
+        </section>
+
+        <!-- Formación académica-->
+        <section id="formacion">
+            <div>
+                <h3 class="sub-titulo2">Formación</h3>
+            </div>
+            <div class="div-img-seccion texto-normal" id="texto-formacion">
+                <div><img src="img/jvg.jpg" alt=""><p>Profesorado en Matemática</p></div>
+                <div><img src="img/utn.png" alt=""><p>Diplomatura en Programación Web FullStack</p></div>
+                <div><img src="img/alura.png" alt=""><p>Certificación Alura-Principiante en Programación</p></div>
+                <div><img src="img/ifts.png" alt=""><p>Tecnicatura en Desarrollo de Software(en curso)</p></div>
+            </div>
+        </section>
+        <!-- Proyectos-->
+        <!-- Agregar link a los proyectos al hacer click-->
+
+        <section id="proyectos">
+            <h3 class="sub-titulo2">Proyectos</h3>
+            <div>
+                <table class="texto-normal" id="tabla">
+                    <tr>
+                    <th>Página Web Clases particulares</th>
+                    <th>Proyecto en C#</th>
+                    <th>E-commerce Dale Cuerda junto con José Manuel Benetti</th>
+                    </tr>
+                    <tr>
+                    <td><img src="img/clases.PNG" alt="" class="tabla-img"></td>
+                    <td><img src="img/proycsharp.png" alt="" class="tabla-img"></td>
+                    <td><img src="img/dalecuerda.png" alt="" class="tabla-img"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer-->
+    <!-- Agregar funcionalidad al formulario-->
+    <!-- Agregar whatapp-->
+     <footer id="footer">
+        <div>
+            <h3 class="sub-titulo2">Contacto</h3>
+        </div>
+        <div class="form-img">
+            <div class="imagen"><img src="img/contacto.png" alt=""></div>
+            <div>
+                <form class="texto-normal">
+                    <label>Nombre:</label><br>
+                    <input type="text" class="estilo-input" value=""><br>
+                    <label>Apellido:</label><br>
+                    <input type="text" class="estilo-input" value=""><br><br>
+                    <label>Email:</label><br>
+                    <input type="text" class="estilo-input" value=""><br><br>
+                    <label>Celular:</label><br>
+                    <input type="text" class="estilo-input" value=""><br><br>
+                    <label>Mensaje:</label><br>
+                    <textarea class="estilo-input" style="height: 90px;"></textarea>
+                    <input type="submit" id="btn-enviar" value="Enviar">
+                </form>
+            </div>
+            
+        </div>
+        
+     </footer>
+
+</body>
+
+</html>
