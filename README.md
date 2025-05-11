@@ -1,6 +1,5 @@
-# Título del Proyecto
+# Mi Portfolio
 
-Portfolio
 En la página web describo los lenguajes de programación que manejo, mi formación académica, hobbies. También podrán encontrar un formulario de contacto a través del cuál establecer una comunicación.
 
 ## Comenzando 🚀
