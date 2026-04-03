@@ -1,0 +1,246 @@
+body{
+    width: 100%;
+    height: auto;
+    
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+.imagen {
+    width: 110px;
+}
+
+.nombre {
+    font-family: "Playwrite IE", cursive;
+    color: brown;
+    font-style: italic;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+}
+
+.botonera nav{
+	float: right;
+    
+}
+	.botonera ul {
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		padding-right: 20px;
+        float: right;
+	}
+	
+		.botonera ul li {
+			display: inline-block;
+			line-height: 80px;
+            
+		}
+			
+			.botonera ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+                color: black;
+			}
+			
+				.botonera ul li a:hover {
+					background: antiquewhite;
+				}
+
+.presentacion {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 0.5% 0.8% 0.5% 0.8%;
+}
+.div-vacio{
+    width: 30%;
+}
+#mifoto{
+    padding: 30px;
+}
+#mifoto img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius:50%;
+}
+.sub-titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.texto-normal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.botonera2 nav{
+    float: left;
+    height: 50px;
+}
+
+#habilidades{
+    height: 300px;
+    width: 100%;
+    padding-top: 5px;
+}
+#hobbies{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sub-titulo2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.div-tit-seccion{
+    width: 100%;
+    height: 24%;
+}
+.div-img-seccion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.div-img-seccion div{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    padding: 30px;
+    align-items: center;
+}
+
+.div-img-seccion div img{
+    width: 70px;
+    height : 70px;
+    max-height: 100%;
+    max-width: 100%;
+}
+#formacion{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    padding-top: 5px;
+}
+#texto-formacion{
+    text-align: center;
+}
+#proyectos{
+    height: auto;
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 5px;
+}
+
+#contacto{
+    height: auto;
+    width: 100%;
+    background-color: antiquewhite;
+    padding-top: 5px;
+}
+.tabla-img{
+    width: 400px;
+}
+#tabla{
+   margin-left: 8%;
+   margin-right: 8%;
+}
+#tabla td{
+    padding: 10px;
+}
+
+#peliculas{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/*al contenedor de las tarjetas le aplico display flex para luego ubicarlas de manera centrada en la pantalla-->*/
+.contenedor-tarjetas{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .tarjeta-img {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    
+  }
+.tarjeta-titulo{
+    text-align: center;
+}
+  .tarjeta_text{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 7px;
+  }
+#contacto{
+    height: auto;
+        width: 100%;
+        background-color: antiquewhite;
+        padding-bottom: 5px;
+}
+#footer{
+        height: auto;
+        width: 100%;
+        background-color: white;
+}
+
+.footer-txt{
+    text-align: center;
+    font-family:  "Playwrite IE", cursive;
+    font-size: small;
+
+}
+.form-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#btn-enviar{
+    border-radius: 25%;
+    width: 80px;
+    height: 30px;
+    margin-bottom:8px ;
+}
+.estilo-input{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

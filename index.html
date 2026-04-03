@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Porfolio </title>
+        <!-- CSS externo -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Encabezado-->
+     <header class="header">
+        <div class="logo">
+            <div class="imagen"><img src="img/estrella.png" alt=""></div>
+            <div class="nombre"><h1>Nidia Catalina Elías</h1></div>
+        </div>
+        <div class="botonera">
+            <nav>
+                <ul class="texto-normal">
+                    <li><a href="#presentacion">Sobre mi</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#formacion">Formación</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#peliculas">Películas favoritas</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+        </nav>
+        </div>
+     </header>
+
+    <main>
+            <!-- Presentación-->
+        <section class="presentacion" id="presentacion">
+            
+            <div>
+                <p class="sub-titulo">Hola, mi nombre es Nidia y soy desarrolladora.</p>
+                <p class="texto-normal">Actualmente curso el 2° año de la Tecnicatura en Desarrollo de Software y doy clases matemática en escuelas secundarias. <br>
+                En el año 2021 empecé a estudiar programación a través de diferentes cursos a distancia de la UTN, Alura-Oracle, y desde entonces sigo incursionando en el mundo IT.</p>
+            </div>
+            <div class="div-vacio"></div>
+            <div id="mifoto">
+                <img src="img/mifoto.jpg" alt="Gatito gris sobre una guitarra criolla">
+            </div>
+
+            <!-- AGREGAR LISTA CON LINK DE GIT HUB, LINKEDN, ETC -->
+            
+        </section>
+        <!-- Habilidades-->
+        <section id="habilidades">
+            <div class="div-tit-seccion">
+                <h3 class="sub-titulo2">Habilidades</h3>
+            </div>
+            <div class="div-img-seccion texto-normal">
+                <table>
+                    <tr>
+                        <td><div><img src="img/html.png" alt=""></td>
+                        <td><div><img src="img/css.png" alt=""></div></td>
+                        <td><div><img src="img/csharp.png" alt=""></div></td>
+                        <td><div><img src="img/mysql.png" alt=""></div></td>
+                        <td><div><img src="img/javascript.png" alt=""></div></td>
+                        <td><div><img src="img/php.png" alt=""></div></td>
+                    </tr>
+                    <tr>
+                        <td><div>HTML</div></td>
+                        <td><div>CSS</div></td>
+                        <td><div>C-SHARP</div></td>
+                        <td><div>MySql</div></td>
+                        <td><div>JavaScript</div></td>
+                        <td><div>PHP</div></td>
+                    </tr>
+                </table>
+         
+            </div>
+
+        </section>
+
+        <!-- Hobbies-->
+        <section id="hobbies"> 
+            <div class="div-tit-seccion">
+                <h3 class="sub-titulo2">Hobbies</h3>
+            </div>
+            <div class="div-img-seccion texto-normal">
+                <div><img src="img/viajar.jpg" alt=""><p>Viajar</p></div>
+                <div><img src="img/guitarra.png" alt=""><p>Tocar la guitarra</p></div>
+                <div><img src="img/bici.png" alt=""><p>Andar en bicicleta</p></div>
+            </div>
+        </section>
+
+        <!-- Formación académica-->
+        <section id="formacion">
+            <!--En esta sección describo el titulo obtenido, y los cursos que realicé y los que están en curso también.-->
+            <div>
+                <h3 class="sub-titulo2">Formación</h3>
+            </div>
+            <div class="div-img-seccion texto-normal" id="texto-formacion">
+                <div><img src="img/jvg.jpg" alt=""><p>Profesorado en Matemática</p></div>
+                <div><img src="img/utn.png" alt=""><p>Diplomatura en Programación Web FullStack</p></div>
+                <div><img src="img/alura.png" alt=""><p>Certificación Alura-Principiante en Programación</p></div>
+                <div><img src="img/ifts.png" alt=""><p>Tecnicatura en Desarrollo de Software(en curso)</p></div>
+            </div>
+        </section>
+        <!-- Proyectos-->
+        <!-- Agregar link a los proyectos al hacer click-->
+
+        <section id="proyectos">
+            <h3 class="sub-titulo2">Proyectos</h3>
+            <div>
+                <table class="texto-normal" id="tabla">
+                    <tr>
+                    <th>Página Web Clases particulares</th>
+                    <th>Proyecto en C#</th>
+                    <th>E-commerce Dale Cuerda junto con José Manuel Benetti</th>
+                    </tr>
+                    <tr>
+                    <td><img src="img/clases.PNG" alt="" class="tabla-img"></td>
+                    <td><img src="img/proycsharp.png" alt="" class="tabla-img"></td>
+                    <td><img src="img/dalecuerda.png" alt="" class="tabla-img"></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- Películas-->
+        <section id="peliculas">
+            <h3 class="sub-titulo2">Películas favoritas</h3>
+            <div class="contenedor-tarjetas">
+                <article class="tarjeta">
+                    <div class="tarjeta-img"><img src="img/volveralfuturo.jpg"></div>
+                    <div class="card__content">
+                      <h2 class="tarjeta-titulo">Volver al futuro</h2>
+                      <p class="tarjeta_text">Marty McFly, un adolescente, es enviado accidentalmente a 1955 en un DeLorean modificado por el científico Doc Brown. Al impedir que sus padres se conozcan, Marty debe lograr que se enamoren para salvar su propia existencia antes de intentar regresar a 1985 con la ayuda del Doc de esa época. </p>
+                    </div>
+                  </article>
+                  <article class="tarjeta">
+                    <div class="tarjeta-img"><img src="img/trumanshow.jpg"></div>
+                    <div class="card__content">
+                      <h2 class="tarjeta-titulo">Truman show</h2>
+                      <p class="tarjeta_text"> Es una película satírica sobre Truman Burbank (Jim Carrey), un hombre que desconoce que toda su vida es un reality show televisado 24/7. Vive en un estudio gigante, rodeado de actores y cámaras ocultas dirigidas por Cristof (Ed Harris). Truman descubre la farsa y lucha por escapar hacia la realidad.</p>
+                    </div>
+                  </article>
+                  <article class="tarjeta">
+                    <div class="tarjeta-img"><img src="img/origen.jpg"></div>
+                    <div class="card__content">
+                      <h2 class="tarjeta-titulo"> El Origen</h2>
+                      <p class="tarjeta_text">Dom Cobb es un ladrón con una extraña habilidad para entrar a los sueños de la gente y robarles los secretos de sus subconscientes. Su habilidad lo ha vuelto muy popular en el mundo del espionaje corporativo, pero ha tenido un gran costo en la gente que ama. Cobb obtiene la oportunidad de redimirse cuando recibe una tarea imposible: plantar una idea en la mente de una persona. Si tiene éxito, será el crimen perfecto, pero un enemigo se anticipa a sus movimientos.</p>
+                    </div>
+                  </article>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h3 class="sub-titulo2">Contacto</h3>
+            <div class="form-img">
+                <div class="imagen"><img src="img/contacto.png" alt=""></div>
+                <div>
+                    <form class="texto-normal">
+                        <label>Nombre:</label><br>
+                        <input type="text" class="estilo-input" value=""><br>
+                        <label>Apellido:</label><br>
+                        <input type="text" class="estilo-input" value=""><br><br>
+                        <label>Email:</label><br>
+                        <input type="text" class="estilo-input" value=""><br><br>
+                        <label>Celular:</label><br>
+                        <input type="text" class="estilo-input" value=""><br><br>
+                        <label>Mensaje:</label><br>
+                        <textarea class="estilo-input" style="height: 90px;"></textarea>
+                        <input type="submit" id="btn-enviar" value="Enviar">
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer-->
+    <!-- Agregar funcionalidad al formulario-->
+    <!-- Agregar whatapp-->
+     <footer id="footer">
+        <div>
+            <p class="footer-txt">Whatapp: 54948562563</p>
+            <p class="footer-txt">Facebook: Nidia Elías</p>
+            <h3 class="footer-txt"> 2026 Nidia Elías-Desarrolladora. Todos los derechos reservados</h3>
+            
+        </div>
+        
+     </footer>
+
+</body>
+
+</html>
