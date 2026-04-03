@@ -60,7 +60,7 @@ tarjetas o botones).
 adecuada para tu proyecto? 
 Respuesta: Utilicé hover para la botonera que conducen a las diferentes secciones del proyecto.
 • Consideraciones Adicionales: 
-[ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos. 
+[x] El diseño es responsivo y se visualiza correctamente en distintos dispositivos. 
 [x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en 
 las imágenes). 
 [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de 
