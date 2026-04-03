@@ -192,7 +192,7 @@ body{
     width: 400px;
   }
 
-  .tarjeta-img {
+.tarjeta-img {
     display: flex;
     justify-content: center;
     height: 250px;

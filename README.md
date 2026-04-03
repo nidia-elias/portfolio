@@ -12,58 +12,58 @@ En la página web describo los lenguajes de programación que manejo, mi formaci
 Visual Studio Code
 Lenguajes utilizados: HTML y CSS.
 
-## Estructuran del proyecto
+## Estructura del proyecto
 
-[ ] Archivo "index.html" ubicado en la raíz. 
+[x] Archivo "index.html" ubicado en la raíz. 
+Se encuentra dentro de la carpeta portfolio. 
+[x] Carpeta "css" que contenga el archivo "styles.css". 
 Se encuentra dentro de la carpeta portafolio. 
-[ ] Carpeta "css" que contenga el archivo "styles.css". 
-Se encuentra dentro de la carpeta portafolio. 
-[ ] (Opcional) Carpeta "img" para recursos gráficos. 
+[x] (Opcional) Carpeta "img" para recursos gráficos. 
 En la carpeta img se encuentran las imágenes correspondientes al proyecto.
-[ ] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
-En el presente archivo detallo lo pedido.
+[x] Archivo "README.md" creado, que incluya una breve descripción del TP y este checklist.
 • Repositorio y Publicación: 
-[ ] Repositorio en GitHub creado.
- 
-[ ] Proyecto subido al repositorio. 
-[ ] Proyecto publicado utilizando GitHub Pages. 
-[ ] En el "README.md" se indica la URL de GitHub Pages. 
+[x] Repositorio en GitHub creado.
+https://github.com/nidia-elias/portfolio 
+[x] Proyecto subido al repositorio. 
+[x] Proyecto publicado utilizando GitHub Pages. 
+[x] En el "README.md" se indica la URL de GitHub Pages.
+https://nidia-elias.github.io/portfolio/ 
 • Uso de Google Fonts: 
-[ ] Enlace a Google Fonts incluido en la sección "head" del HTML. 
-[ ] La tipografía importada se aplica en el sitio. 
-[ ] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente? 
-Respuesta: __________________________________________________________ 
+[x] Enlace a Google Fonts incluido en la sección "head" del HTML. 
+[x] La tipografía importada se aplica en el sitio. 
+[x] Redacta brevemente tu decisión: ¿Por qué elegiste esa fuente? 
+Respuesta: Elegí esa fuente porque me encanta la letra cursiva.
 • HTML: 
-< 4 de 6 > 
-[ ] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es". 
-[ ] Se han incluido las metaetiquetas obligatorias: charset y viewport. 
-[ ] Se ha definido un título descriptivo. 
-[ ] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts. 
+[x] El documento inicia con la declaración DOCTYPE y usa el atributo lang="es". 
+[x] Se han incluido las metaetiquetas obligatorias: charset y viewport. 
+[x] Se ha definido un título descriptivo. 
+[x] Se han vinculado correctamente el archivo CSS y el enlace a Google Fonts. 
 Secciones obligatorias en "main": 
-[ ] Barra de navegación ("nav") presente y contiene al menos 3 enlaces. 
-[ ] Se han insertado al menos 4 comentarios explicativos en el código HTML. 
+[x] Barra de navegación ("nav") presente y contiene al menos 3 enlaces. 
+[x] Se han insertado al menos 4 comentarios explicativos en el código HTML. 
+Tambien agregué comentarios en styles.css
 • CSS: 
-[ ] Existe el archivo "styles.css" con estilos personalizados. 
-[ ] Se utilizan selectores basados en clases e identificadores. 
-[ ] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos. 
+[x] Existe el archivo "styles.css" con estilos personalizados. 
+[x] Se utilizan selectores basados en clases e identificadores. 
+[x] La tipografía importada desde Google Fonts se aplica correctamente en todos los elementos seleccionados. 
 Layout y Organización: 
-[ ] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox o Grid. 
-[ ] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto? 
-Respuesta: ________________________________________________________ 
+[x] Se ha organizado el layout (especialmente en la sección "tarjetas") utilizando Flexbox. 
+[x] Redacta: ¿Qué ventajas encontraste al utilizar Flexbox o Grid en tu proyecto? 
+Respuesta: Con flexbox pude organizar los elementos de div de manera más rápida y óptima.
 Estilización de Componentes: 
-[ ] Se han personalizado los estilos de tablas, botones, enlaces y formularios. 
-[ ] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, 
+[x] Se han personalizado los estilos de tablas, botones, enlaces y formularios. 
+[x] Se han ajustado las dimensiones de imágenes y contenedores utilizando unidades relativas (%, 
 rem, vh). 
-[ ] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en 
+[x] Se ha implementado al menos una animación o transición (por ejemplo, efecto hover en 
 tarjetas o botones). 
-[ ] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era 
+[x] Redacta: ¿Qué animación o transición implementaste y por qué consideraste que era 
 adecuada para tu proyecto? 
-Respuesta: ________________________________________________________ 
+Respuesta: Utilicé hover para la botonera que conducen a las diferentes secciones del proyecto.
 • Consideraciones Adicionales: 
 [ ] El diseño es responsivo y se visualiza correctamente en distintos dispositivos. 
-[ ] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en 
+[x] Se aplicaron buenas prácticas de accesibilidad (por ejemplo, uso adecuado de atributos alt en 
 las imágenes). 
-[ ] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de 
+[x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de 
 implementación. 
 
 ## Autor ✒️
