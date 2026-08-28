@@ -11,10 +11,10 @@ body{
 }
 
 .nombre {
-    font-family: "Playwrite IE", cursive;
+    font-family:'Courier New', Courier, monospace;
     color: brown;
     font-style: italic;
-	 white-space: nowrap;
+	white-space: nowrap;
   	border-right: 3px solid #007BFF; /* El cursor parpadeante */
   	overflow: hidden;
   	width: 10ch; /* Ajusta este número al total de letras de tu nombre */
