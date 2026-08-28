@@ -98,6 +98,24 @@ body{
     width: 100%;
     padding-top: 5px;
 }
+
+.imagen-hover {
+  width: 300px;
+  overflow: hidden; /* Evita que la imagen crezca fuera del contenedor */
+  border-radius: 8px;
+}
+
+.imagen-hover img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Hace que el cambio sea suave */
+}
+
+/* Efecto al pasar el cursor */
+.imagen-hover:hover img {
+  transform: scale(1.1); /* Agranda la imagen un 10% */
+}
+
 #hobbies{
     width: 100%;
     background-color: antiquewhite;
