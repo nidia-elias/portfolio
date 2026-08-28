@@ -24,6 +24,17 @@ body{
     escribir 2s steps(10) forwards, 
     parpadear 0.5s infinite step-end alternate;
 }
+
+
+/* Animación que revela las letras */
+@keyframes escribir {
+  from { width: 0; }
+}
+
+/* Animación del cursor */
+@keyframes parpadear {
+  50% { border-color: transparent; }
+}
 .header {
     display: flex;
     justify-content: space-between;
