@@ -14,6 +14,15 @@ body{
     font-family: "Playwrite IE", cursive;
     color: brown;
     font-style: italic;
+	 white-space: nowrap;
+  	border-right: 3px solid #007BFF; /* El cursor parpadeante */
+  	overflow: hidden;
+  	width: 10ch; /* Ajusta este número al total de letras de tu nombre */
+  
+  	/* Animación de escribir (0.8s) y del cursor parpadeante (infinito) */
+  	animation: 
+    escribir 2s steps(10) forwards, 
+    parpadear 0.5s infinite step-end alternate;
 }
 .header {
     display: flex;
