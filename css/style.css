@@ -11,30 +11,11 @@ body{
 }
 
 .nombre {
-    font-family:'Courier New', Courier, monospace;
+    font-family:"Playwrite IE" , cursive;
     color: brown;
     font-style: italic;
-	white-space: nowrap;
-  	border-right: 3px solid #007BFF; /* El cursor parpadeante */
-  	overflow: hidden;
-  	width: 10ch; /* Ajusta este número al total de letras de tu nombre */
-  
-  	/* Animación de escribir (0.8s) y del cursor parpadeante (infinito) */
-  	animation: 
-    escribir 2s steps(10) forwards, 
-    parpadear 0.5s infinite step-end alternate;
 }
 
-
-/* Animación que revela las letras */
-@keyframes escribir {
-  from { width: 0; }
-}
-
-/* Animación del cursor */
-@keyframes parpadear {
-  50% { border-color: transparent; }
-}
 .header {
     display: flex;
     justify-content: space-between;
