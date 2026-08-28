@@ -12,7 +12,11 @@ En la página web describo los lenguajes de programación que manejo, mi formaci
 Visual Studio Code
 Lenguajes utilizados: HTML y CSS.
 
-## Estructura del proyecto
+## Documentación de uso de IA
+
+Utilicé la IA Gemini, el plan gratuito, para solicitarle ejemplos sobre qué transiciones podría realizarle a mi Portfolio, además pedí ayuda en cuanto al diseño responsive. De acuerdo a los ejemplos que me daba, fui adaptándolos a la fuente de letra que elegí y con respecto al responsive, a la organización de las columnas.
+
+## Estructura del proyecto y decisiones tomadas
 
 [x] Archivo "index.html" ubicado en la raíz. 
 Se encuentra dentro de la carpeta portfolio. 
@@ -65,6 +69,11 @@ Respuesta: Utilicé hover para la botonera que conducen a las diferentes seccion
 las imágenes). 
 [x] Se añadieron comentarios adicionales donde se describan decisiones de diseño o la lógica de 
 implementación. 
+
+## Link de Vercel
+
+https://portfolio-mu-rouge-25.vercel.app/
+
 
 ## Autor ✒️
 
