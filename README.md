@@ -14,7 +14,7 @@ Lenguajes utilizados: HTML y CSS.
 
 ## Documentación de uso de IA
 
-Utilicé la IA Gemini, el plan gratuito, para solicitarle ejemplos sobre qué transiciones podría realizarle a mi Portfolio, además pedí ayuda en cuanto al diseño responsive. De acuerdo a los ejemplos que me daba, fui adaptándolos a la fuente de letra que elegí y con respecto al responsive, a la organización de las columnas.
+Utilicé la IA Gemini, el plan gratuito, para solicitarle ejemplos sobre qué transiciones podría realizarle a mi Portfolio, además pedí ayuda en cuanto al diseño responsive. De acuerdo a los ejemplos que me daba, fui adaptándolos a la fuente de letra que elegí, colores y formas; y con respecto al responsive, a la organización de las columnas.
 
 ## Estructura del proyecto y decisiones tomadas
 
